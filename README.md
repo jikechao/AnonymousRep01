@@ -9,9 +9,19 @@ pip install -r requirements.txt
 ```
 
 #### Running
-Please use the following command to obtain the results of structural coverage:
+Please use the following command to obtain the results of structural coverage (except Driving and Speech):
 ```shell
 python get_nc.py -d mnist -num_classes 10 -target cw
+```
+
+Please use the following command to obtain the results of structural coverage of the Driving:
+```shell
+python get_nc_driving.py -target light
+```
+
+Please use the following command to obtain the results of structural coverage of the Speech:
+```shell
+python get_nc_speech.py
 ```
 
 Please use the following command to obtain the results of non-structural coverage:
