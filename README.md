@@ -1,6 +1,6 @@
 # Deep Neural Network Test Coverage: How Far Are We?
 
-#### Environmen configuration
+#### Environment configuration
 The version of related libraries are in the `requirements.txt`.
 
 You can install related libraries with the following command：
